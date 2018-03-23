@@ -250,10 +250,9 @@
 
     .main-project{
         position: relative;
-        left: 10%;
         display: flex;
         background: #A0E7E0;
-        width: 80%;
+        width: 100%;
         height: 400px;
     }
 
@@ -267,17 +266,18 @@
     }
          
     .main-description{
-        font-size: 20px;
-        position: absolute;
-        left: 55%;
-        top: 10px;
+        font-size: 25px;
+        position: relative;
+        left: 5%;
+        width: 50%;
+        top: 5px;
         color: black;
         font-family:  Comic Sans MS, Comic Sans, cursive;
     }
 
     .main-img{
         display: inline-block;
-        width: 50%;
+        width: 100%;
         height: 100%;
     }
 
