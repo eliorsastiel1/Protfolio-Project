@@ -137,9 +137,14 @@
 @media only screen and (min-width:551px) and (max-width: 800px){
     
      .main-project{
+         max-width: 450px;
          width: 100%;
          height: 400px;
          position: relative;
+         left: 11%;
+         text-align: center;
+         display: inline-block;
+         margin-left: auto;
          
      }
      
