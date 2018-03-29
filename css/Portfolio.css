@@ -75,7 +75,7 @@
     }
 
     .android-app{
-        width: 50%;            
+        width: 100%;            
         position: relative;
         border-right: 1px solid black ;
         text-align: center;
@@ -83,7 +83,7 @@
         
     }
     .card-project{
-        width: 50%;            
+        width: 100%;            
         position: relative;
         border-right: 1px solid black ;
         text-align: center;
@@ -97,7 +97,7 @@
         
     }
     .android-app-title{    
-        font-size: 150%;
+        font-size: 130%;
         position: absolute;
         top: 70%;
         color: #9956EE;
@@ -111,27 +111,27 @@
         color: #9956EE;
     }
     .facebook{
-        background: #CBFFFD;  
-        border: 1px solid black ;
-        width: 100%;
-        height: 100%;
+        width: 100%;            
+        position: relative;
+        border-right: 1px solid black ;
         text-align: center;
-        position: relative; 
+        order: 3; 
     }
     .facebook-img{
-       border-top: 1px solid black ;
-       width: 100%;
-       height: 100%;
-       position: relative;
-       top: 4px;
+        width: 100%;
     }
     .facebook-title{
+        font-size: 150%;
+        position: absolute;
+        top: 70%;
         color: #9956EE;
+        left: 10px;
     }
     
     .facebook a{
         text-decoration: none;
     }
+
 
 }
 @media only screen and (min-width:551px) and (max-width: 800px){
@@ -141,12 +141,21 @@
          width: 100%;
          height: 400px;
          position: relative;
-         left: 11%;
+         left: 15%;
          text-align: center;
          display: inline-block;
          margin-left: auto;
          
      }
+
+     .sub-project{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        left: 5%;
+        
+  
+    }
      
      .main-project-img{
          width: 100%;
@@ -180,6 +189,7 @@
      }
  
      .android-app{
+       max-width: 650px;  
        width: 100%;
        height: 200px;
        background: #A0E7E0;
@@ -188,12 +198,13 @@
      }
 
      .card-project{
+        max-width: 650px;
         width: 100%;
         height: 200px;
         background: #A0E7E0;
         border: 0.5px solid black ;  
         position: relative;
-        top: 5px;
+
      }
  
      .android-img{
@@ -224,6 +235,7 @@
      }
 
      .facebook{
+        max-width: 650px;
         width: 100%;
         height: 200px;
         background: #A0E7E0;
@@ -246,6 +258,7 @@
         position: relative;
         top:5px;
         padding-top: 5px ;
+       
      }
  
  }
@@ -264,10 +277,11 @@
     .sub-project{
         display: flex;
         position: relative;
-        left: 10%;
-        width: 80%;
+        left: 15%;
+        width: 100%;
         height: 300px;
         border: 2px solid black;
+        max-width: 700px;
     }
          
     .main-description{
@@ -288,13 +302,14 @@
 
     .card-project{
         background: #A0E7E0;
-        width:80%;
-        height: 300px
+        width:100%;
+        height: 100%;
+        border-right: 1px solid black;
     }
 
     .android-app{
         background: #A0E7E0;
-        width:80%;
+        width:100%;
         height: 100%;
         border-right: 1px solid black;
     }
@@ -307,6 +322,8 @@
     .Udacity-img{
         width:100%;
         height: 77%;
+        position: relative;
+        top: 7px;;
     }
 
     .android-app a{
@@ -315,9 +332,9 @@
     }
 
     .android-app-title{
-        position: relative;
-        left: 30%;
         color: #9956EE;
+        text-decoration: none;
+        text-align: center;
     }
 
     .card-project a{
@@ -326,21 +343,18 @@
     }
 
     .Udacity-project-title{
-        position: relative;
-        left: 20%;
         color: #9956EE;
-        
+        text-decoration: none;
+        text-align: center;
+        font-size: 22px;
     }
 
 
     .facebook{
         background: #A0E7E0;
-        width: 50%;
-        height: 300px;
-        position: relative;
-        left: 25%;
-        border: 2px solid black;
-        margin: 10px;
+        width:100%;
+        height: 100%;
+        border-right: 1px solid black;
     }
 
     .facebook a{ 
@@ -361,4 +375,9 @@
     .main-description-title{
         color: #9956EE;
      }
+
+     .social-media{
+        max-width: 650px;
+    }
+
  }
